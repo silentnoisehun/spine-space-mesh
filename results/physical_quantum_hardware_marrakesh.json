@@ -1,0 +1,39 @@
+{
+  "timestamp_utc": "2026-11-09T16:00:00Z",
+  "backend": "ibm_marrakesh",
+  "job_id": "dboulglt7fqc7388fs6g",
+  "status": "DONE",
+  "shots_per_pub": 2000,
+  "raw_counts": {
+    "pub0_cycle1": {
+      "0": 1867,
+      "1": 133
+    },
+    "pub1_cycle2": {
+      "0": 1758,
+      "1": 242
+    },
+    "pub2_disconnected_control": {
+      "0": 1006,
+      "1": 994
+    },
+    "pub3_cal0": {
+      "0": 1998,
+      "1": 2
+    },
+    "pub4_cal1": {
+      "1": 1981,
+      "0": 19
+    }
+  },
+  "fidelities": {
+    "cycle1_raw": 0.9335,
+    "cycle2_raw": 0.879,
+    "disconnected_control_raw": 0.503,
+    "cal0_readout": 0.999,
+    "cal1_readout": 0.9905,
+    "cycle1_corrected": 0.9338049519959576,
+    "cycle2_corrected": 0.8787266296109146
+  },
+  "verdict": "CONFIRMED PHYSICAL ON-CHIP QUANTUM DELAY-LINE MEMORY"
+}
