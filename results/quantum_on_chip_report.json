@@ -40,5 +40,7 @@
   ],
   "negative_control_p": 0.49755859375,
   "negative_control_passed": true,
-  "verdict": "CONFIRMED ON-CHIP QUANTUM DELAY-LINE MEMORY"
+  "verdict": "CONFIRMED ON-CHIP QUANTUM DELAY-LINE MEMORY",
+  "engine": "AerSimulator (Ide\u00e1lis szimul\u00e1tor, Heron topol\u00f3gia)",
+  "hardware_status": "Design-valid\u00e1ci\u00f3 ide\u00e1lis szimul\u00e1torban; az \u00e9les Heron QPU fut\u00e1s QUEUED folyamatban"
 }

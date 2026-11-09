@@ -4,5 +4,7 @@
   "connected_fidelity": 1.0,
   "disconnected_fidelity": 0.496337890625,
   "negative_control_passed": true,
-  "verdict": "CONFIRMED DISTRIBUTED QUANTUM BRIDGE"
+  "verdict": "CONFIRMED DISTRIBUTED QUANTUM BRIDGE",
+  "engine": "AerSimulator (Ide\u00e1lis szimul\u00e1tor)",
+  "hardware_status": "Design-valid\u00e1ci\u00f3 ide\u00e1lis szimul\u00e1torban; az \u00e9les Heron QPU fut\u00e1s QUEUED folyamatban"
 }

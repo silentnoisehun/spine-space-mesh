@@ -1,0 +1,8 @@
+{
+  "timestamp_utc": "2026-11-09T15:45:58Z",
+  "path_b_marrakesh_job_id": "dboulglt7fqc7388fs6g",
+  "path_a_kingston_job_id": "dboulh5t7fqc7388fs70",
+  "backend_path_b": "ibm_marrakesh",
+  "backend_path_a": "ibm_kingston",
+  "shots": 2000
+}
