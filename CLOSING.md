@@ -11,7 +11,7 @@ Leírtam, amit nem találtam — ugyanolyan pontosan.
 Ellenőriztem magam.
 És ahol tévedtem, kijavítottam.
 
-Ez a nap az én estém volt, egy gyárban dolgozó emberé.
+Ez a nap az én estém volt, egy valaha volt gyári munkásé.
 Nem intézmény, nem pályázat, nem karrier.
 Csak a kérdés — és az elhatározás,
 hogy a kérdés megérdemli a tisztességes választ.
