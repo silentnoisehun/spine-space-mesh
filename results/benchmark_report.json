@@ -1,0 +1,84 @@
+{
+  "timestamp_utc": "2026-11-09T15:30:00Z",
+  "payload_hex": "0xDEADBEEFCAFEBABE",
+  "carrier_freq_hz": 10000.0,
+  "delay_per_hop_sec": 0.005,
+  "ring_results": [
+    {
+      "cycle": 1,
+      "elapsed_time_sec": 0.0219,
+      "total_hops": 3,
+      "decoded_hex": "0xDEADBEEFCAFEBABE",
+      "bit_errors": 0,
+      "ber": 0.0,
+      "mean_amplitude": 0.979415451495796,
+      "status": "TÖKÉLETES MEGGŐRZÉS (BER=0.0)"
+    },
+    {
+      "cycle": 2,
+      "elapsed_time_sec": 0.0369,
+      "total_hops": 6,
+      "decoded_hex": "0xDEADBEEFCAFEBABE",
+      "bit_errors": 0,
+      "ber": 0.0,
+      "mean_amplitude": 0.9654767330653746,
+      "status": "TÖKÉLETES MEGGŐRZÉS (BER=0.0)"
+    },
+    {
+      "cycle": 5,
+      "elapsed_time_sec": 0.0819,
+      "total_hops": 15,
+      "decoded_hex": "0xDEADBEEFCAFEBABE",
+      "bit_errors": 0,
+      "ber": 0.0,
+      "mean_amplitude": 0.9273653057032424,
+      "status": "TÖKÉLETES MEGGŐRZÉS (BER=0.0)"
+    },
+    {
+      "cycle": 10,
+      "elapsed_time_sec": 0.15689999999999998,
+      "total_hops": 30,
+      "decoded_hex": "0x2152411035014541",
+      "bit_errors": 64,
+      "ber": 1.0,
+      "mean_amplitude": 0.8738342476930165,
+      "status": "DEGRADÁLT / ZAJOS"
+    },
+    {
+      "cycle": 20,
+      "elapsed_time_sec": 0.3069,
+      "total_hops": 60,
+      "decoded_hex": "0x2152411035014541",
+      "bit_errors": 64,
+      "ber": 1.0,
+      "mean_amplitude": 0.7926108991766699,
+      "status": "DEGRADÁLT / ZAJOS"
+    },
+    {
+      "cycle": 50,
+      "elapsed_time_sec": 0.7568999999999999,
+      "total_hops": 150,
+      "decoded_hex": "0x0000000000000000",
+      "bit_errors": 64,
+      "ber": 1.0,
+      "mean_amplitude": 0.0,
+      "status": "DEGRADÁLT / ZAJOS"
+    }
+  ],
+  "negative_control_passed": true,
+  "negative_control_ber": 1.0,
+  "line_results": [
+    {
+      "cycle": 2,
+      "elapsed_time_sec": 0.0269,
+      "total_hops": 4,
+      "decoded_hex": "0xDEADBEEFCAFEBABE",
+      "bit_errors": 0,
+      "ber": 0.0,
+      "mean_amplitude": 0.9746936977170584,
+      "status": "PASS"
+    }
+  ],
+  "theoretical_capacity_bits": 450,
+  "verdict": "CONFIRMED IN-FLIGHT MESH MEMORY — A hálózat a tranzitban tárolja az információt."
+}
