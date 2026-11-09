@@ -206,6 +206,10 @@ pub fn run_attractor_experiment() -> AttractorFieldReport {
         attractors_stable: recoveries.iter().filter(|r| r.recovered).count(),
         perturbation_curve: recoveries,
         control_without_attractor_collapsed: collapsed,
-        verdict: "CONFIRMED SELF-HEALING ATTRACTOR DYNAMICS — Kapuk nélküli önszerveződés igazolva.".to_string(),
+        verdict: if collapsed {
+            "MODEL RESULT (simulation) — recovery built into potential; negative control collapsed (undecided boundary)".to_string()
+        } else {
+            "MODEL RESULT (simulation) — recovery built into potential; negative control did not collapse within observation window".to_string()
+        },
     }
 }

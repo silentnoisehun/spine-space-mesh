@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
 distributed_quantum_bridge.py — Út A: Marrakesh <-> Kingston Kvantum Spine Híd
 
@@ -81,9 +81,9 @@ def run_bridge_benchmark():
         if bitstr[0] == '0':
             success_shots += cnt
 
-    fidelity = success_shots / shots
-    print(f"  Node B-re átérkező kvantumállapot hűsége: {fidelity * 100:.2f}%")
-    print(f"  Státusz: {'TÖKÉLETES KVANTUM TRANZIT (Fidelity = 100%)' if fidelity > 0.99 else 'DEGRADÁLT'}")
+    p_transit = success_shots / shots  # X-basis survival probability (not full state fidelity)
+    print(f"  Node B-re átérkező sikeres tranzit aránya (ideális szimulátor): {p_transit * 100:.2f}%")
+    print(f"  Státusz: {'SIKERES TRANZIT (ideális szimulátor)' if p_transit > 0.99 else 'DEGRADÁLT'}")
 
     # 2. Negatív Kontroll (Szétkapcsolt Spine Busz)
     print("\n[2/2] Negatív Kontroll (Szétkapcsolt Spine Busz — Nincs szindróma átvitel)...")
@@ -103,10 +103,10 @@ def run_bridge_benchmark():
     report = {
         "timestamp_utc": "2026-11-09T15:45:00Z",
         "protocol": "Distributed Quantum Spine Mesh (Node A <-> Node B)",
-        "connected_fidelity": fidelity,
-        "disconnected_fidelity": disc_fidelity,
+        "connected_p_transit": p_transit,  # X-basis survival (ideal simulator)
+        "disconnected_p_transit": disc_fidelity,
         "negative_control_passed": abs(disc_fidelity - 0.5) < 0.05,
-        "verdict": "CONFIRMED DISTRIBUTED QUANTUM BRIDGE"
+        "verdict": "SIMULATOR DESIGN VALIDATION (Aer, ideal) — not a physical hardware result"
     }
 
     out_file = Path(__file__).resolve().parent.parent / "results" / "quantum_distributed_bridge_report.json"

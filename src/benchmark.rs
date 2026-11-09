@@ -1,4 +1,4 @@
-// src/benchmark.rs — Kvantitatív Kísérleti és Mérési Csomag
+﻿// src/benchmark.rs — Kvantitatív Kísérleti és Mérési Csomag
 //
 // Futtatja a 4 mérési cölöpöt:
 // 1. In-flight memóriamegőrzés a keringési ciklusok függvényében (Ring).
@@ -242,7 +242,7 @@ pub fn run_comprehensive_benchmark() -> BenchmarkReport {
     println!("{}", "-".repeat(78));
 
     let verdict = if neg_control_passed && ring_results.iter().any(|r| r.ber < 0.05) {
-        "CONFIRMED IN-FLIGHT MESH MEMORY — A hálózat a tranzitban tárolja az információt.".to_string()
+        "MODEL RESULT (simulation) — in-flight mesh memory demonstrated in software model; not a physical hardware result".to_string()
     } else {
         "INCONCLUSIVE / FAILED".to_string()
     };

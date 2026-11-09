@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
 on_chip_quantum_delay_line.py — Út B: Heron Szupravezető Kvantum Késleltető Művonal
 
@@ -71,14 +71,14 @@ def run_simulation_benchmark():
         zeros = counts.get('0', 0)
         ones = counts.get('1', 0)
         p_plus = zeros / shots # Mivel H után mértük, '0' = |+⟩, '1' = |-⟩
-        fidelity = p_plus # Állapot-hűség
+        # p_plus = X-bázis túlélési valószínűség (nem teljes állapothűség — ahhoz több bázis kellene)
 
-        print(f"  Ciklus #{cyc:2} ({cyc * num_qubits:2} SWAP ugras): P(|+>) = {p_plus:.4f} (Huseg: {fidelity * 100:.2f}%) | counts: {counts}")
+        print(f"  Ciklus #{cyc:2} ({cyc * num_qubits:2} SWAP ugras): P(|+>) = {p_plus:.4f} | counts: {counts}")
         results.append({
             "cycle": cyc,
             "total_swaps": cyc * num_qubits,
             "p_plus": p_plus,
-            "fidelity": fidelity,
+            "p_plus": p_plus,  # X-basis survival probability
             "status": "PASS" if fidelity > 0.99 else "DEGRADED"
         })
 
@@ -99,7 +99,7 @@ def run_simulation_benchmark():
         "ring_results": results,
         "negative_control_p": p_disc,
         "negative_control_passed": abs(p_disc - 0.5) < 0.05,
-        "verdict": "CONFIRMED ON-CHIP QUANTUM DELAY-LINE MEMORY"
+        "verdict": "SIMULATOR DESIGN VALIDATION (Aer, ideal) — physical hardware result in results/physical_quantum_hardware_marrakesh.json"
     }
 
     out_file = Path(__file__).resolve().parent.parent / "results" / "quantum_on_chip_report.json"

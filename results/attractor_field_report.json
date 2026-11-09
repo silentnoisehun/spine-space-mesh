@@ -1,4 +1,4 @@
-{
+﻿{
   "timestamp_utc": "2026-11-09T15:55:00Z",
   "num_nodes": 4,
   "attractors_tested": 6,
@@ -42,5 +42,5 @@
     }
   ],
   "control_without_attractor_collapsed": false,
-  "verdict": "CONFIRMED SELF-HEALING ATTRACTOR DYNAMICS — Kapuk nélküli önszerveződés igazolva."
+  "verdict": "MODEL RESULT (simulation) — recovery built into potential; negative control undecided (control_without_attractor_collapsed: false)"
 }

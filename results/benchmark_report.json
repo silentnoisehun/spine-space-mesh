@@ -1,4 +1,4 @@
-{
+﻿{
   "timestamp_utc": "2026-11-09T15:30:00Z",
   "payload_hex": "0xDEADBEEFCAFEBABE",
   "carrier_freq_hz": 10000.0,
@@ -80,5 +80,5 @@
     }
   ],
   "theoretical_capacity_bits": 450,
-  "verdict": "CONFIRMED IN-FLIGHT MESH MEMORY — A hálózat a tranzitban tárolja az információt."
+  "verdict": "MODEL RESULT (simulation) — in-flight mesh memory demonstrated in software model; not a physical hardware result"
 }
