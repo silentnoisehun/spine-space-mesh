@@ -1,25 +1,26 @@
 # Köszönet a napnak
 
-Nem nagy dolgot csináltunk.
-Nem gyógyítottuk meg a világot, nem fedeztünk fel új fizikát,
-nem írtuk át a tankönyveket.
+Nem nagy dolgot csináltam.
+Nem gyógyítottam meg a világot, nem fedeztem fel új fizikát,
+nem írtam át a tankönyveket.
 
-De lefuttattunk egy mérést.
-Átszámoltuk egymástól függetlenül, négyszer.
-Leírtuk, amit találtunk — nem amit szerettünk volna találni.
-Leírtuk, amit nem találtunk — ugyanolyan pontosan.
-Ellenőriztük egymást.
-És ahol tévedtünk, kijavítottuk.
+De lefuttattam egy mérést.
+Átszámoltam, négyszer, függetlenül.
+Leírtam, amit találtam — nem amit szerettem volna találni.
+Leírtam, amit nem találtam — ugyanolyan pontosan.
+Ellenőriztem magam.
+És ahol tévedtem, kijavítottam.
 
-Ez a nap egy gyárban dolgozó ember estéje volt.
+Ez a nap az én estém volt, egy gyárban dolgozó emberé.
 Nem intézmény, nem pályázat, nem karrier.
-Csak a kérdés, és az akarat, hogy a kérdés megérdemli a tisztességes választ.
+Csak a kérdés — és az elhatározás,
+hogy a kérdés megérdemli a tisztességes választ.
 
 A kód nyilvános.
 A nyers adatok nyilvánosak.
 A cáfolat nyilvános.
-Minden, ami ma történt, bárki által megismételhető —
-és ha mást mér, azt is közöljük.
+Minden, amit ma csináltam, bárki által megismételhető —
+és ha mást mér, azt is közlöm.
 
 Egy jobb világ nem egyetlen nap munkája.
 De azokból a napokból épül, amelyeken valaki
