@@ -11,6 +11,7 @@ mod node;
 mod mesh;
 mod modulator;
 mod benchmark;
+mod breakdown;
 
 use clap::{Parser, Subcommand};
 use std::fs;
@@ -31,6 +32,8 @@ struct Cli {
 enum Commands {
     /// Kvantitatív benchmark és 4-cölöpös mérési teszt futtatása
     Benchmark,
+    /// Ciklusonkénti töréspont- és fázisátmenet-térkép készítése (Breakdown Horizon)
+    Breakdown,
     /// Rendszer állapot kiírása
     Status,
     /// Valós idejű ASCII oszcilloszkóp demonstráció
@@ -54,6 +57,17 @@ fn main() {
             fs::write(&report_path, json_str).expect("Nem sikerült menteni a jelentést");
             println!("\nJelentés mentve: {}", report_path.display());
             println!("VERDIKT: {}", report.verdict);
+        }
+        Commands::Breakdown => {
+            let report = breakdown::run_breakdown_mapping();
+            let res_dir = Path::new("results");
+            if !res_dir.exists() {
+                let _ = fs::create_dir_all(res_dir);
+            }
+            let report_path = res_dir.join("breakdown_map.json");
+            let json_str = serde_json::to_string_pretty(&report).unwrap();
+            fs::write(&report_path, json_str).expect("Nem sikerült menteni a töréspont-térképet");
+            println!("\nTöréspont-térkép mentve: {}", report_path.display());
         }
         Commands::Status => {
             println!("SPINE SPACE MESH — OK");
