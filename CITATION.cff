@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software or experimental data, please cite it as below."
+title: "Spine Space Mesh: In-Flight Delay-Line Quantum Memory and Self-Healing Attractors on IBM Heron"
+authors:
+  - family-names: "Máté"
+    given-names: "Róbert"
+    orcid: "https://orcid.org/0009-0003-3986-6039"
+date-released: 2026-11-09
+version: 0.1.0
+repository-code: "https://github.com/silentnoisehun/spine-space-mesh"
+license: "MIT"
+keywords:
+  - "quantum-computing"
+  - "ibm-quantum"
+  - "delay-line-memory"
+  - "superconducting-qubits"
+  - "gross-pitaevskii"
+  - "kuramoto-model"
+  - "heron-r2"
+  - "qiskit"
+abstract: >-
+  Implementation and physical quantum hardware validation of in-flight delay-line
+  memory and continuous-time non-linear Gross-Pitaevskii attractors. Evaluated on the
+  156-qubit IBM Heron processor (ibm_marrakesh), demonstrating 93.38% (1-cycle) and
+  87.87% (2-cycle) X-basis state survival, with 50.30% classical mixture under severed-loop
+  negative control.
