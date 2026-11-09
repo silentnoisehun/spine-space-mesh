@@ -40,7 +40,7 @@ igazolt, csak még nem cáfolt. Számítás itt még nem zajlott.
 **A delay-line**  
 Két pont. Nem görbe — két pont.
 A 93,35% X-bázis túlélés, nem állapothűség.
-Fázis nincs mérve. Ez a SWAP-lánc minőségét mondja meg —
+Egyetlen bázisban mért érték nem ad teljes állapothűséget — ahhoz fázis-információ is kellene. Ez a SWAP-lánc minőségét mondja meg —
 ami hasznos, pontos, és más, mint amit a „memória" szó sejtet.
 
 **Az egész nap**  

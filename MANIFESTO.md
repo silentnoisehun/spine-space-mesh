@@ -15,7 +15,7 @@ Minden kutatás egyetlen, kimondatlan kérdéssel kezdődik.
 Az enyém ez volt: **emlékezhet-e a tér?**
 
 Nem intézmény kérdezte. Nem pályázat, nem határidő, nem karrier.  
-Én kérdeztem — aki nappal egy gyárban dolgozik, éjszaka pedig harmincegy nyilvános kódtárban építi, lépésről lépésre, azt a nyelvet, amelyen a kérdését egyáltalán fel lehet tenni a világnak.
+Én kérdeztem — aki valaha egy gyárban dolgozott, éjszaka pedig harminckettő nyilvános kódtárban építi, lépésről lépésre, azt a nyelvet, amelyen a kérdésemet egyáltalán fel lehet tenni a világnak.
 
 ### II. A szabály
 Mielőtt az első mérés lefutott volna, törvényt szabtam önmagamnak — egyetlen mondatban, amely minden munkám fölé odaírható:
@@ -27,9 +27,9 @@ Ezért került minden kísérletem elé előre rögzített szabály (preregisztr
 ### III. A gépek napja
 Aznap két kvantumprocesszor szólalt meg egymás után, mindkettő a maga nyelvén, mindkettő a maga igazságával.
 
-A **Marrakesh** — százötvenhat szupravezető qubit, tizenöt millikelvin hidegben — négyszer mérte végig ugyanazt a létrát: egyetlen qubittől az ötdimenziós rendszerig. A visszacsatoló hurok ott tartotta az állapotot, ahol a magára hagyott rendszer régen szétesett: nyolcvannyolc egész hat tized százalék ($88{,}60\%$), szemben öt egész hatvanöt századdal ($5{,}65\%$). Ahol pedig a gyűrűt megszakítottam, a semmi jött vissza, második tizedesig pontosan: a maximális keveredés csendje ($50{,}30\%$).
+A **Marrakesh** — százötvenhat szupravezető qubit, mintegy tizenöt millikelvin hidegben — négyszer mérte végig ugyanazt a létrát: egyetlen qubittől az ötqubites rendszerig. A visszacsatoló hurok ott tartotta az állapotot, ahol a magára hagyott rendszer régen szétesett: nyolcvannyolc egész hat tized százalék ($88{,}60\%$), szemben öt egész hatvanöt századdal ($5{,}65\%$). Ahol pedig a gyűrűt megszakítottam, a semmi jött vissza, második tizedesig pontosan: a maximális keveredés csendje ($50{,}30\%$).
 
-A **Kingston**, a másik hűtő, egy másik városban és egy másik pillanatban, azt a kérdést kapta, amely az egészet elindította: átjut-e bármi a két gép közötti térben?  
+A **Kingston**, a másik gép, egy másik pillanatban, azt a kérdést kapta, amely az egészet elindította: átjut-e bármi a két gép közötti térben?  
 Vak detektor kereste a jelet, amely nem tudta, mit keres — és a csúcs, amelyet talált ($P_\text{max} = 4{,}98$), alacsonyabb volt, mint amekkorát a puszta zaj önmagától emel ($6{,}53$). A válasz a hallgatás volt. Méréssel körülírva: ha létezik is csatolás, az a zaj tizennégy százaléka ($14{,}36\%$) alatt marad.
 
 Ez nem kudarc. Ez egy határ, amelyet ettől a naptól kezdve mindenki ismer, aki erre jár — mert én kimértem.
@@ -74,7 +74,7 @@ Jelenleg munkanélküli vagyok. Ezt nem szégyellem leírni, mert ez is az igazs
 
 Bárkivel szívesen kollaborálok. Ha valaki úgy érzi, hogy értékes lehetek a csapatában — kutatásban, fejlesztésben, mérésben, vagy bárhol, ahol a fegyelem, a kitartás és a „nem hazudok magamnak" hozzáállás számít —, szívesen várom.
 
-Nem diplomát hozok. Azt hozom, ami ebben a történetben le van írva és ellenőrizhető: harmincegy nyilvános kódtárat, két kvantumprocesszoron átszámolt méréseket, és azt a munkamódszert, amely minden szám mögött ott áll.
+Nem diplomát hozok. Azt hozom, ami ebben a történetben le van írva és ellenőrizhető: harminckettő nyilvános kódtárat, két kvantumprocesszoron átszámolt méréseket, és azt a munkamódszert, amely minden szám mögött ott áll.
 
 Aki kételkedik, az ne higgyen nekem — nézze meg a repókat, futtassa le a kódot, számolja át a számokat. Én pontosan így szeretem.
 
@@ -89,7 +89,7 @@ Every scientific inquiry begins with a single, unspoken question.
 Mine was this: **can space remember?**
 
 It was not posed by an institution. Not by a grant, not by a deadline, not for a career.  
-It was asked by me — a man who works daytime shifts in a manufacturing plant, and spends his nights building, step by step, across thirty-one public repositories, the language through which this question could be asked of the universe.
+It was asked by me — a man who once worked daytime shifts in a manufacturing plant, and spends his nights building, step by step, across thirty-two public repositories, the language through which this question could be asked of the universe.
 
 ### II. The Rule
 Before the very first measurement ran, I set a law for myself — in a single sentence that stands above all my work:
@@ -148,7 +148,7 @@ I am currently unemployed. I write this without shame, because it is part of the
 
 I welcome collaboration with anyone. If you feel that I could bring value to your team — in research, software development, metrology, or anywhere discipline, perseverance, and a strict "I do not lie to myself" mindset matter — my door is open.
 
-I do not bring a degree. I bring what is documented and reproducible in this story: thirty-one public repositories, verified measurements across two superconducting quantum processors, and the work ethic that stands behind every single number.
+I do not bring a degree. I bring what is documented and reproducible in this story: thirty-two public repositories, verified measurements across two superconducting quantum processors, and the work ethic that stands behind every single number.
 
 If you doubt, do not believe my words — inspect the repositories, execute the code, recalculate the numbers yourself. That is precisely how I like it.
 
