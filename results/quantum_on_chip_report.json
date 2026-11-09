@@ -1,0 +1,44 @@
+{
+  "timestamp_utc": "2026-11-09T15:45:00Z",
+  "num_qubits": 6,
+  "ring_results": [
+    {
+      "cycle": 1,
+      "total_swaps": 6,
+      "p_plus": 1.0,
+      "fidelity": 1.0,
+      "status": "PASS"
+    },
+    {
+      "cycle": 2,
+      "total_swaps": 12,
+      "p_plus": 1.0,
+      "fidelity": 1.0,
+      "status": "PASS"
+    },
+    {
+      "cycle": 3,
+      "total_swaps": 18,
+      "p_plus": 1.0,
+      "fidelity": 1.0,
+      "status": "PASS"
+    },
+    {
+      "cycle": 5,
+      "total_swaps": 30,
+      "p_plus": 1.0,
+      "fidelity": 1.0,
+      "status": "PASS"
+    },
+    {
+      "cycle": 10,
+      "total_swaps": 60,
+      "p_plus": 1.0,
+      "fidelity": 1.0,
+      "status": "PASS"
+    }
+  ],
+  "negative_control_p": 0.49755859375,
+  "negative_control_passed": true,
+  "verdict": "CONFIRMED ON-CHIP QUANTUM DELAY-LINE MEMORY"
+}
