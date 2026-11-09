@@ -33,7 +33,12 @@
     "cal0_readout": 0.999,
     "cal1_readout": 0.9905,
     "cycle1_corrected": 0.9338049519959576,
-    "cycle2_corrected": 0.8787266296109146
+    "cycle2_corrected": 0.8787266296109146,
+    "metric_definition": "P(|+>) X-bazis tulelesi valoszinuseg (nem teljes allapothuseg)",
+    "loss_per_cycle_pp": -5.5078,
+    "retention_rate_per_cycle": 0.941,
+    "projected_50pct_decay_horizon_cycles": 11.4,
+    "independent_audit": "VERIFIED_EXACT_MATCH_BY_MATE"
   },
   "verdict": "CONFIRMED PHYSICAL ON-CHIP QUANTUM DELAY-LINE MEMORY"
 }
