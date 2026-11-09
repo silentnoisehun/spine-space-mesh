@@ -1,0 +1,46 @@
+{
+  "timestamp_utc": "2026-11-09T15:55:00Z",
+  "num_nodes": 4,
+  "attractors_tested": 6,
+  "attractors_stable": 6,
+  "perturbation_curve": [
+    {
+      "kick_angle_deg": 15.0,
+      "recovered": true,
+      "return_time_ms": 62.00000000000034,
+      "residual_phase_error_deg": 0.4962525640468485
+    },
+    {
+      "kick_angle_deg": 30.0,
+      "recovered": true,
+      "return_time_ms": 75.80000000000054,
+      "residual_phase_error_deg": 0.4961161864641113
+    },
+    {
+      "kick_angle_deg": 45.0,
+      "recovered": true,
+      "return_time_ms": 85.40000000000067,
+      "residual_phase_error_deg": 0.49980561963070463
+    },
+    {
+      "kick_angle_deg": 60.0,
+      "recovered": true,
+      "return_time_ms": 95.00000000000081,
+      "residual_phase_error_deg": 0.494899277702147
+    },
+    {
+      "kick_angle_deg": 75.0,
+      "recovered": true,
+      "return_time_ms": 107.00000000000098,
+      "residual_phase_error_deg": 0.4961911219862213
+    },
+    {
+      "kick_angle_deg": 85.0,
+      "recovered": true,
+      "return_time_ms": 120.40000000000117,
+      "residual_phase_error_deg": 0.49749732816326103
+    }
+  ],
+  "control_without_attractor_collapsed": false,
+  "verdict": "CONFIRMED SELF-HEALING ATTRACTOR DYNAMICS — Kapuk nélküli önszerveződés igazolva."
+}

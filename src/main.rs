@@ -12,6 +12,7 @@ mod mesh;
 mod modulator;
 mod benchmark;
 mod breakdown;
+mod attractor_field;
 
 use clap::{Parser, Subcommand};
 use std::fs;
@@ -34,6 +35,8 @@ enum Commands {
     Benchmark,
     /// Ciklusonkénti töréspont- és fázisátmenet-térkép készítése (Breakdown Horizon)
     Breakdown,
+    /// Bio-Binaries kapu-mentes attraktor-mező perturbációs kísérlet
+    Attractor,
     /// Rendszer állapot kiírása
     Status,
     /// Valós idejű ASCII oszcilloszkóp demonstráció
@@ -68,6 +71,17 @@ fn main() {
             let json_str = serde_json::to_string_pretty(&report).unwrap();
             fs::write(&report_path, json_str).expect("Nem sikerült menteni a töréspont-térképet");
             println!("\nTöréspont-térkép mentve: {}", report_path.display());
+        }
+        Commands::Attractor => {
+            let report = attractor_field::run_attractor_experiment();
+            let res_dir = Path::new("results");
+            if !res_dir.exists() {
+                let _ = fs::create_dir_all(res_dir);
+            }
+            let report_path = res_dir.join("attractor_field_report.json");
+            let json_str = serde_json::to_string_pretty(&report).unwrap();
+            fs::write(&report_path, json_str).expect("Nem sikerült menteni az attraktor-jelentést");
+            println!("\nAttraktor-jelentés mentve: {}", report_path.display());
         }
         Commands::Status => {
             println!("SPINE SPACE MESH — OK");
